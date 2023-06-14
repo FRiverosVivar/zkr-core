@@ -3,7 +3,6 @@
  */
 
 export * from './lib/zkr-core.module';
-export * from './lib/core/components/table/table.component';
 export * from './lib/core/utils/pipes/filterObjectArrayByKeys.pipe';
 export * from './lib/core/model/zkr-core.model';
 export * from './lib/core/model/zkr-core-login.model';
