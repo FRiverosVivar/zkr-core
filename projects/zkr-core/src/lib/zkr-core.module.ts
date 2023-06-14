@@ -1,7 +1,6 @@
 import {inject, ModuleWithProviders, NgModule} from '@angular/core';
 import {CoreModule} from "./core/core.module";
 import {FilterObjectArrayByKeysPipe} from "./core/utils/pipes/filterObjectArrayByKeys.pipe";
-import {TranslateModule} from "@ngx-translate/core";
 import {constants, ZkrCoreModel} from "./core/model/zkr-core.model";
 import {ZkrProgressBarComponent} from "./core/ngx-progressbar-wrapper/component/zkr-progress-bar.component";
 import {AuthService} from "./core/services/auth/auth.service";
@@ -14,7 +13,6 @@ import {LocalStorageService} from "./core/services/local-storage/local-storage.s
   declarations: [],
   imports: [CoreModule],
   providers: [
-    TranslateModule,
     AuthService,
     HttpBaseService,
     HttpAuthService,
